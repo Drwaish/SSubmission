@@ -17,7 +17,14 @@ All rights are reserved by the publishers.
 ### Doctor Usage
 - Provide Second opinion, segment the image,  to the user based on nifti image enter by doctor.
 
-# How you can Setup
+# How you can Setup the Repo
+
+## Quick Easy Way
+
+Execute project ProjectSetup.ipynb's notebbok.
+
+**Alternatively**
+
 ### Create Virtual Environment
 ```
 conda create -n heallabs
@@ -45,6 +52,7 @@ Create **.env** file in GP contain Hugging face Token
 ```
 HF_TOKEN=<Change with your HF_token>
 ```
+
 
 **Recommendation**
 
