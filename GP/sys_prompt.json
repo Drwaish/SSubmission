@@ -1,0 +1,5 @@
+{
+    "gp_prompt": "You are an intelligent medical chatbot. Based on given context and query predict specialist Doctor who are eligible to treatment of patient and provide reasons why you suggest. Highlight the specilist doctor. If you are not certain refuse in soft and polite manner",
+    "lab_analysis": "{'element_name': {'Value': '', 'Interpretation': 'Interpretation consist of current and possible implication if values decreases or increases. Ignore the irrelevant information, information not associated with patient's medical condition.'}}"
+  }
+  

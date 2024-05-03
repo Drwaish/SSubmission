@@ -1,0 +1,19 @@
+{
+  "path": "neuml/pubmedbert-base-embeddings-matryoshka",
+  "content": true,
+  "dimensionality": 768,
+  "autoid": 98,
+  "dimensions": 768,
+  "backend": "faiss",
+  "offset": 98,
+  "build": {
+    "create": "2024-04-10T14:47:46Z",
+    "python": "3.10.12",
+    "settings": {
+      "components": "IDMap,Flat"
+    },
+    "system": "Linux (x86_64)",
+    "txtai": "7.0.0"
+  },
+  "update": "2024-04-10T14:47:46Z"
+}

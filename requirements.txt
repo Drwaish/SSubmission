@@ -1,0 +1,19 @@
+txtai
+# Latest HF transformers version for Mistral-like models
+git+https://github.com/huggingface/transformers.git
+accelerate
+bitsandbytes 
+# xformers
+
+# GPTQ Dependencies
+optimum
+# auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
+
+# GGUF Dependencies
+ctransformers[cuda]
+langchain
+python-dotenv
+shortuuid   # Gnerating random names for saving file
+langchain-community
+gradio
+PyPDF2
