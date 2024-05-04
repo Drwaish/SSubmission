@@ -1,0 +1,3 @@
+monai-weekly[nibabel, tqdm]
+matplotlib
+python-dotenv

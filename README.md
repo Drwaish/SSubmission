@@ -54,6 +54,7 @@ HF_TOKEN=<Change with your HF_token>
 ```
 
 
+
 **Recommendation**
 
 It is recommended to use 24 Gb , GPU for fast inference. 
