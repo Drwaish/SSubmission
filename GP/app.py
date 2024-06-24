@@ -5,6 +5,11 @@ from disease_llm import create_llm_chain
 from main import QueryProcessor
 from labAnalyzer.preprocessing import LabReport
 
+
+QUERY = """
+    Lately, I've noticed reduced urine output, persistent fatigue, swelling in my ankles and legs,
+        and frequent headaches.
+    """
 # Initialize your objects and functions
 qp = QueryProcessor()
 lr = LabReport()
@@ -67,6 +72,7 @@ with gr.Blocks(theme=gr.themes.Base()) as demo:
                 diagnosis_output = gr.TextArea(label="Remedies", lines=4)
         btn = gr.Button("Generate")
         btn.click(pre_diagnose, inputs=[symptom_query], outputs=[diagnosis_output])
+        gr.Examples(examples=[QUERY], inputs=[symptom_query])
 
     with tab2:
         gr.HTML("<h2><center> ChatBot </center></h2>")
