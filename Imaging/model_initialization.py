@@ -1,4 +1,5 @@
 '''Initialize the model for segmentation'''
+from monai.transforms import  MapTransform
 from monai.inferers import sliding_window_inference
 from monai.networks.nets import SegResNet
 import torch

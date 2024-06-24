@@ -111,7 +111,7 @@ def load_and_preprocess_image(file_name):
 
 if __name__=="__main__":
     device = torch.device("cuda:0")
-    inp_image = load_and_preprocess_image(file_name=file_path)
+    inp_image = load_and_preprocess_image(file_name=file_path).to(device)
     model = get_model(device = device, model_path=model_path)
     post_trans = Compose([Activations(sigmoid=True), AsDiscrete(threshold=0.5)])
     with torch.no_grad():
