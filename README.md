@@ -54,9 +54,13 @@ HF_TOKEN=<Change with your HF_token>
 ```
 
 
+# Medical Imaging
+Medical images , specifcally brain CT scan , are segmented that helps doctor to make well informed decision. 
+
+Kindly visit the **Imaging** folder.
 
 **Recommendation**
 
-It is recommended to use 24 Gb , GPU for fast inference. 
+It is recommended to use  GPU for  inference. 
 
 

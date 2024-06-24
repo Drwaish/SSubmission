@@ -38,6 +38,8 @@ Now Run the main file.
 python main.py
 ```
 
+### All infered images are stored in output directory with input images. 
+
 **Note**: Testing images must be nii.gz format. Right now test the model from one of the testing images . Output images also available.
 
 
